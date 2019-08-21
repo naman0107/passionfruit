@@ -1,33 +1,71 @@
-.App {
-  text-align: center;
+body {
+  font-family: Roboto;
+}
+.mdl-layout__header-row {
+  display: inline !important;
+  height: 95px !important;
+}
+.top-nav {
+  background-color: #f7f7f7;
+}
+.nav-links {
+  float: right;
+  margin-right: 6% !important;
+  margin-top: 1% !important;
+}
+.nav-links a {
+  color: #a2253d !important;
+  font-weight: bold;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 13px;
+  opacity: 1 !important;
+}
+.fancy-title-1 {
+  letter-spacing: -3px;
+  text-transform: initial;
+  font-size: 50px;
+  color: #221c1e;
+  text-align: left;
+  font-style: inherit;
+  padding-bottom: 0;
+  font-weight: 300;
+}
+.social-block span {
+  margin-top: 12%;
+  float: left;
+  color: #fff;
+}
+.social-block span a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.social-icons-footer a img {
+  width: 13%;
+  padding: 0px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.button {
+  margin: 0;
+  border: none;
+  outline: 0 !important;
+  font-size: 13px;
+  line-height: 13px !important;
+  padding: 12px 15px;
+  text-transform: uppercase;
+  vertical-align: top;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  font-family: inherit;
+  text-decoration: none;
+  overflow: visible;
+  font-weight: 700;
+  left: auto;
+  white-space: nowrap;
+  display: inline-block;
+  margin-top: 12%;
 }

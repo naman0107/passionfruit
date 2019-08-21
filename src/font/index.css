@@ -1,0 +1,298 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+.demo-grid-ruler {
+  min-height: 750px;
+}
+.fancy-title-2 {
+  letter-spacing: -3px;
+  text-transform: initial;
+  font-size: 55px;
+  line-height: 90%;
+  color: #a3228a;
+  text-align: left;
+  font-style: inherit;
+  font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.mk-text-block {
+  margin-bottom: 25px;
+  text-align: left;
+  margin-top: 7%;
+}
+
+.mk-text-block p {
+  font-size: 20px;
+  color: #787878;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 36px;
+}
+.coming-soon {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 3%;
+}
+.coming-soon span {
+  letter-spacing: -1px;
+  text-transform: initial;
+  font-size: 40px;
+  line-height: 90%;
+  color: #f8a440;
+  text-align: left;
+  font-style: inherit;
+  font-weight: 400;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.mobile-apps {
+  width: 100%;
+  margin: auto;
+  float: left;
+  padding: 7% 19.5%;
+}
+.mobile-apps a {
+  float: left;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+.mobile-apps img {
+  width: 70%;
+}
+.social-icons {
+  margin: auto;
+  text-align: center;
+}
+.social-icons a {
+  padding: 10px;
+}
+.social-icons a img {
+  width: 5%;
+}
+
+.your-passion {
+  min-height: 800px;
+  margin-bottom: 0;
+  padding: 60px 0 0;
+  background-color: rgba(150, 36, 76, 0.8);
+}
+.video-block {
+  margin-top: 4% !important;
+}
+.fancy-title-3 {
+  letter-spacing: -2px;
+  text-transform: initial;
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  font-style: inherit;
+  font-weight: 300;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.video-block p {
+  font-size: 18px;
+  text-align: center;
+  color: #ddb3be;
+  font-style: inherit;
+  font-weight: 400;
+  padding: 5% 10% 0% 10%;
+  letter-spacing: 0px;
+}
+.parallax {
+  background-image: url(http://passionfruit.me/wp-content/uploads/2015/10/shapes_bg_1.jpg);
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url(http://passionfruit.me/wp-content/uploads/2018/02/pf-hipster1.jpg);
+  /* Set a specific height */
+  min-height: 356px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px !important;
+}
+.fancy-title-4 {
+  letter-spacing: -2px;
+  text-transform: initial;
+  font-size: 45px;
+  color: #a3228a;
+  text-align: center;
+  font-style: inherit;
+  font-weight: 300;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.features li span i {
+  float: right !important;
+}
+.why-passionfruit {
+  width: 80%;
+  margin: auto;
+}
+.title-heading {
+  letter-spacing: 0;
+  text-transform: capitalize;
+  font-size: 24px;
+  color: #52777b;
+  font-style: inherit;
+  font-weight: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0px !important;
+  text-align: right;
+  padding-right: 20px;
+}
+.text-block span {
+  letter-spacing: 0;
+  text-transform: initial;
+  font-size: 15px;
+  color: #959595;
+  text-align: right;
+  font-style: inherit;
+  font-weight: 100;
+  padding-top: 0;
+  padding-bottom: 20px;
+  float: left;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.title-heading-right span {
+  float: left;
+  text-align: left !important;
+  margin-bottom: 27%;
+}
+.title-heading-right h2 {
+  float: left !important;
+}
+.text-block div {
+  width: 70%;
+  float: left;
+  margin-bottom: 10%;
+}
+.text-block p {
+  width: 30%;
+  float: left;
+  margin-top: 3%;
+}
+.belong {
+  width: 100% !important;
+  background: linear-gradient(45deg, #f8a440 0%, #ef763e 100%);
+  opacity: 0.85;
+  min-height: 356px;
+  margin: 0px !important;
+}
+.belong span {
+  position: absolute;
+  float: left;
+  width: 45%;
+  margin: auto;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-transform: initial;
+  text-align: center;
+  padding: 8% 30%;
+  line-height: 30px;
+}
+.last-block {
+  float: left;
+  margin-top: 8% !important;
+}
+.last-block h2 {
+  letter-spacing: 0;
+  text-transform: initial;
+  font-size: 100px;
+  line-height: 93%;
+  color: #f8a440;
+  text-align: left;
+  font-style: inherit;
+  font-weight: 300;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.last-block span {
+  letter-spacing: 0;
+  text-transform: initial;
+  font-size: 34px;
+  line-height: 80%;
+  color: #52777b;
+  text-align: left;
+  font-style: inherit;
+  font-weight: bold;
+}
+.last-block h3 {
+  letter-spacing: 0;
+  text-transform: initial;
+  font-size: 34px;
+  color: #52777b;
+  text-align: left;
+  font-style: inherit;
+  font-weight: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 5%;
+}
+.divider-inner {
+  border-top-color: #e4e4e4;
+  width: 100px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-bottom: 5%;
+}
+.last-block p {
+  font-size: 17px;
+  text-align: left;
+  color: #939393;
+  font-weight: 300;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  margin-bottom: 5%;
+  line-height: 36px;
+}
+.last-block p span {
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.66em;
+  font-weight: 400;
+}
