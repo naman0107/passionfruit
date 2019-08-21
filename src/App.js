@@ -94,7 +94,7 @@ function App() {
             </Cell>
             <Cell col="3">
               <button
-                onclick="location.href = 'http://www.passionfruit.me/join-our-mailing-list/';"
+                onclick="location.href = 'https://www.passionfruit.me/join-our-mailing-list/';"
                 id="myButton"
                 className="button"
                 style={{ backgroundColor: "#ba55d3", color: "#fff" }}
