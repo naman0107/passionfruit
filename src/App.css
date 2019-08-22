@@ -2,7 +2,7 @@ body {
   font-family: Roboto;
 }
 .mdl-layout__header-row {
-  display: inline !important;
+  display: inline-block !important;
   height: 95px !important;
 }
 .top-nav {

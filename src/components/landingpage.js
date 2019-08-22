@@ -69,7 +69,7 @@ export default class landingpage extends Component {
                   <p>
                     Passionfruit is a social app which connects people through
                     shared interests and passions.{" "}
-                    <a href="https://www.passionfruit.me/join-our-mailing-list/">
+                    <a href="https://passionfruit.me/join-our-mailing-list/">
                       <span
                         style={{
                           fontSize: "20px",
