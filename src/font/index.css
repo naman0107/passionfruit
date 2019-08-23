@@ -104,6 +104,7 @@
 }
 .video-block {
   margin-top: 4% !important;
+  margin: auto !important;
 }
 .fancy-title-3 {
   letter-spacing: -2px;

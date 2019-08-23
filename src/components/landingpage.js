@@ -130,7 +130,7 @@ export default class landingpage extends Component {
         >
           <Grid className="your-passion">
             <Slide bottom>
-              <Cell className="video-block" col={8} offset={2}>
+              <Cell className="video-block" col={8}>
                 <h2 className="fancy-title-3">
                   What’s your <b>passion?</b>
                 </h2>
@@ -149,7 +149,7 @@ export default class landingpage extends Component {
               </Cell>
             </Slide>
 
-            <Cell style={{ textAlign: "center", marginBottom: "15%" }} col="12">
+            <Cell style={{ textAlign: "center", margin: "auto" }} col="6">
               <Zoom>
                 <YouTube
                   videoId="NUFPZgVC8IQ"
