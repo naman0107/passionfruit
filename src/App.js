@@ -32,7 +32,6 @@ function App() {
               >
                 <Navigation className="nav-links">
                   <Link to="/">Home</Link>
-                  <Link to="/team">Team</Link>
                   <Link to="/about">About</Link>
                   <Link to="/news">News</Link>
                   <Link to="/legal">Legal</Link>
@@ -45,7 +44,6 @@ function App() {
         <Drawer title="Passion Fruit">
           <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/team">Team</Link>
             <Link to="/about">About</Link>
             <Link to="/news">News</Link>
             <Link to="/legal">Legal</Link>

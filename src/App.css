@@ -139,3 +139,26 @@ button.button {
     margin-top: 3px !important;
   }
 }
+
+/* About Us Page Styling */
+.intro-block h2 {
+  text-align: center;
+  color: #a53994;
+  font-size: 60px;
+}
+.about-info {
+  float: left;
+  margin-top: 6% !important;
+  margin-bottom: 9% !important;
+}
+.about-info h3 {
+  color: #5a5a5a;
+}
+.about-info p {
+  font-size: 16px;
+  color: #777;
+}
+.about-info p i {
+  font-weight: 700;
+  color: darkgoldenrod;
+}
