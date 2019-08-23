@@ -50,7 +50,6 @@ export default class about extends Component {
                 />
                 <a
                   style={{ color: "#161de2" }}
-                  target="_blank"
                   href="https://www.linkedin.com/in/dengpaul/"
                 >
                   Paul Deng
