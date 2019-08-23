@@ -69,3 +69,73 @@ button.button {
   display: inline-block;
   margin-top: 12%;
 }
+
+/* Mobile Responsive iPhone X */
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .fancy-title-1 {
+    font-size: 40px !important;
+  }
+  .fancy-title-2 {
+    font-size: 45px !important;
+  }
+  .last-block h2 {
+    font-size: 90px !important;
+  }
+  .block3-icons {
+    order: 2;
+  }
+  .text-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-block div {
+    width: 100% !important;
+    margin: auto !important;
+    order: 2;
+  }
+  .text-block p {
+    width: 100% !important;
+    text-align: center;
+  }
+  .title-heading,
+  .title-heading-right h2 {
+    text-align: center !important;
+    float: none !important;
+  }
+  .text-block span {
+    text-align: center !important;
+  }
+  .title-heading-right span {
+    margin-bottom: 5% !important;
+  }
+  .pf-phone-img {
+    width: 100%;
+    margin-top: 2em;
+  }
+  .belong span {
+    width: 75% !important;
+    padding: 19% 12% !important;
+  }
+  .last-block img {
+    width: 100%;
+  }
+  .social-block {
+    margin: auto;
+  }
+  .social-block span {
+    float: none !important;
+  }
+  .footer div:first-of-type {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  /* Side bar */
+  .mdl-navigation__link {
+    background-color: #4d154a;
+    color: #fafafa !important;
+    margin-top: 3px !important;
+  }
+}

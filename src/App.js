@@ -92,7 +92,7 @@ function App() {
             <Cell style={{ textAlign: "center" }} col="6">
               <img alt="logo" src={Logo} />
             </Cell>
-            <Cell col="3">
+            <Cell col="3" style={{ margin: "auto" }}>
               <button
                 onclick="location.href = 'https://www.passionfruit.me/join-our-mailing-list/';"
                 id="myButton"

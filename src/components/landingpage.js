@@ -186,7 +186,11 @@ export default class landingpage extends Component {
               </span>
             </Cell>
 
-            <Cell col={4}>
+            <Cell
+              className="block3-icons"
+              style={{ display: "flex", flexDirection: "column" }}
+              col={4}
+            >
               <Slide left>
                 <Cell className="text-block" col="12">
                   <div>
@@ -244,10 +248,10 @@ export default class landingpage extends Component {
               </Slide>
             </Cell>
             <Cell col={4}>
-              <img alt="Pf-Phone" src={PfPhone} />
+              <img alt="Pf-Phone" className="pf-phone-img" src={PfPhone} />
             </Cell>
 
-            <Cell col={4}>
+            <Cell className="block3-icons" col={4}>
               <Slide right>
                 <Cell className="text-block" col="12">
                   <p>
