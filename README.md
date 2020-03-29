@@ -1,3 +1,16 @@
+This is a react website for a company as a volunteer work.
+
+Tech Stack
+
+react
+react-mdl
+react-youtube
+react-reveal
+Bootstrap
+Html
+CSS
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
